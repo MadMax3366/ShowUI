@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# 模型权重（太大，建议放 HuggingFace / 网盘，README 里写下载方式）
+showui-2b/
+*.bin
+*.safetensors
+*.pth
+*.ckpt
+
+
+
+# IDE
+.vscode/
+.idea/
